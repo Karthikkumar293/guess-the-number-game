@@ -15,7 +15,7 @@ int main() {
     // printf("Random Number between 1 and 100: %d\n", randomNumber);
 
     do {
-        printf("number de pagal: ");
+        printf("Enter Your Number: ");
         scanf("%d", &guessed);
 
         if (guessed > randomNumber) {
@@ -28,5 +28,5 @@ int main() {
     } while (guessed != randomNumber);
 
     printf("You guessed the number in %d guesses\n", no_of_guesses);
-return0;
+return 0;
 }
