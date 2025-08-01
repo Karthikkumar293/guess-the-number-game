@@ -12,7 +12,7 @@ int main() {
     int guessed;
 
     do {
-        printf("number de pagal: ");
+        printf("Enter Your Number: ");
         scanf("%d", &guessed);
 
         if (guessed > randomNumber) {
